@@ -1,0 +1,159 @@
+CUSTOM PYTHON DATA STRUCTURE FUNCTIONS
+	All Imports:
+		Full Imports:
+			from datastructures import *
+			from listTools import *
+			from LinkedListTools import *
+			from hash_encrypt import *
+			from StackQueueTools import *
+			from HashDataStructures import *
+
+		Custom Imports:
+			listTools:
+				from listTools import createRandomMatrix
+				from listTools import createEmptyMatrix
+				from listTools import removeDuplicates
+				from listTools import getDuplicates
+				from listTools import linkedToList
+				from listTools import findCombinations
+				from listTools import productOfList
+				from listTools import getRandomListRange
+				from listTools import preorder
+				from listTools import postorder
+				from listTools import inorder
+				from listTools import sortedArrayToBST
+				from listTools import listOperatorAll
+				from listTools import intlisttoint
+				from listTools import twoDArrayToList
+
+			LinkedListTools:
+				from LinkedListTools import listToLinked
+				from LinkedListTools import linkedLength
+				from LinkedListTools import removeElement
+				from LinkedListTools import getElement
+				from LinkedListTools import addElement
+				from LinkedListTools import basicToLinkedList
+				from LinkedListTools import sortLinked
+				from LinkedListTools import sumLinked
+				from LinkedListTools import operatorAll
+				from LinkedListTools import linkedToBST
+
+			hash_encrypt:
+				from hash_encrypt import encrypt
+				from hash_encrypt import decrypt
+				from hash_encrypt import ord_wordToNumber
+				from hash_encrypt import chr_numberListToWord
+				from hash_encrypt import ordencryption
+				from hash_encrypt import orddecryption
+
+			stackqueuetools:
+				from stackqueuetools import ListasStack
+				from stackqueuetools import Push
+				from stackqueuetools import pop
+				from stackqueuetools import stackasList
+				from stackqueuetools import stackSize
+				from stackqueuetools import top
+				from stackqueuetools import emptyStack
+				from stackqueuetools import queueAsStack
+				from stackqueuetools import isEmptyStack
+				from stackqueuetools import listAsQueue
+				from stackqueuetools import stackAsQueue
+				from stackqueuetools import queueAsList
+				from stackqueuetools import enqueue
+				from stackqueuetools import dequeue
+				from stackqueuetools import peek
+				from stackqueuetools import lengthOfQueue
+				from stackqueuetools import empty
+				from stackqueuetools import isEmpty
+				from stackqueuetools import moveToBack
+
+			HashDataStructures:
+				from HashDataStructures import get
+				from HashDataStructures import put
+				from HashDataStructures import size
+				from HashDataStructures import delete
+				from HashDataStructures import keys
+				from HashDataStructures import hashmapEmpty
+				from HashDataStructures import twoDListToHashMap
+
+			datastructures:
+				from datastructures import ListNode
+				from datastructures import TreeNode
+				from datastructures import Stack
+				from datastructures import Queue
+				from datastructures import HashMap
+	Documentation:
+		listTools:
+			createEmptyMatrix(row,column,val)
+			createRandomMatrix(row,column,min,max)
+			removeDuplicates(cur_list)
+			getDuplicates(cur_list)
+			linkedToList(head)
+			findCombinations(cur_list,combination_size)
+			productOfList(cur_list)
+			getRandomListRange(length,min,max)
+			preorder(root,list_write)
+			postorder(root,list_write)
+			inorder(root,list_write)
+			sortedArrayToBST(arr)
+			listOperatorAll(new_list,operation_list)
+			intlisttoint(intlist)
+			twoDArrayToList(arr)
+
+		LinkedListTools:
+			listToLinked(new_linked)
+			linkedLength(new_linked)
+			removeElement(new_linked,indices)
+			getElement(head,index)
+			addElement(head,index,val)
+			basicToLinkedList(basic)
+			sortLinked(head,rev)
+			sumLinked(head)
+			operatorAll(head,operation_list)
+			linkedToBST(new_list)
+			printLinkedList(linked_list)
+
+		hash_encrypt:
+			encrypt(encrypt_list)
+			decrypt(hash_string)
+			ord_wordToNumber(string)
+			chr_numberListToWord(number_list)
+			ordencryption(sentence)
+			orddecryption(encrypted_sentence)
+
+		stackqueuetools:
+			ListasStack(arr)
+			Push(stack,item)
+			pop(stack)
+			stackasList(stack)
+			stackSize(stack)
+			top(stack)
+			emptyStack(stack)
+			queueAsStack(new_queue)
+			isEmptyStack(new_stack)
+			listAsQueue(list,size)
+			stackAsQueue(stack,size)
+			queueAsList(new_queue)
+			enqueue(item,queue)
+			dequeue(new_queue)
+			peek(new_queue)
+			lengthOfQueue(new_queue)
+			empty(queue)
+			isEmpty(queue)
+			moveToBack(new_queue)
+
+		HashDataStructures:
+			get(key,hashmap)
+			put(key,value,hashmap)
+			size(hashmap)
+			delete(hashmap,key)
+			keys(hashmap)
+			hashmapEmpty(hashmap)
+			twoDListToHashMap(multidlist)
+
+		datastructures:
+			ListNode(val,next)
+			TreeNode(val,left,right)
+			Stack(stackarr,top)
+			Queue(queuearr,front,back,size)
+			HashMap(hashmapdict,size)
